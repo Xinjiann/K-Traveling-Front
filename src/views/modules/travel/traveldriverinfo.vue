@@ -74,14 +74,14 @@
         prop="driverStar"
         header-align="center"
         align="center"
-        label="司机平分">
+        label="司机评分">
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="driverVideo"
         header-align="center"
         align="center"
         label="司机视频">
-      </el-table-column>
+      </el-table-column> -->
       <!-- <el-table-column
         prop="field5"
         header-align="center"

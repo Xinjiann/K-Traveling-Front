@@ -26,194 +26,170 @@
         prop="id"
         header-align="center"
         align="center"
-        label="">
+        label="id">
       </el-table-column>
       <el-table-column
         prop="userWxOpenid"
         header-align="center"
         align="center"
-        label="">
+        label="用户id">
       </el-table-column>
       <el-table-column
         prop="orderId"
         header-align="center"
         align="center"
-        label="">
+        label="订单id">
       </el-table-column>
       <el-table-column
         prop="orderTime"
         header-align="center"
         align="center"
-        label="">
+        label="下单时间">
       </el-table-column>
       <el-table-column
         prop="orderPhonePrefix"
         header-align="center"
         align="center"
-        label="">
+        label="手机号前缀">
       </el-table-column>
       <el-table-column
         prop="orderPhone"
         header-align="center"
         align="center"
-        label="">
+        label="手机号">
       </el-table-column>
       <el-table-column
         prop="orderWechat"
         header-align="center"
         align="center"
-        label="">
+        label="微信">
       </el-table-column>
       <el-table-column
         prop="orderEmail"
         header-align="center"
         align="center"
-        label="">
+        label="邮箱">
       </el-table-column>
       <el-table-column
         prop="startPlace"
         header-align="center"
         align="center"
-        label="">
+        label="出发地">
       </el-table-column>
       <el-table-column
         prop="startPostcode"
         header-align="center"
         align="center"
-        label="">
+        label="出发地邮编">
       </el-table-column>
       <el-table-column
         prop="startTime"
         header-align="center"
         align="center"
-        label="">
+        label="出发时间">
       </el-table-column>
       <el-table-column
         prop="targetPlace"
         header-align="center"
         align="center"
-        label="">
+        label="目的地">
       </el-table-column>
       <el-table-column
         prop="targetPostcode"
         header-align="center"
         align="center"
-        label="">
+        label="目的地邮编">
       </el-table-column>
       <el-table-column
         prop="travelTime"
         header-align="center"
         align="center"
-        label="">
+        label="旅行时间">
       </el-table-column>
       <el-table-column
         prop="budget"
         header-align="center"
         align="center"
-        label="">
+        label="预算">
       </el-table-column>
       <el-table-column
         prop="adultNumber"
         header-align="center"
         align="center"
-        label="">
+        label="成人数量">
       </el-table-column>
       <el-table-column
         prop="childNumber"
         header-align="center"
         align="center"
-        label="">
+        label="儿童数量">
       </el-table-column>
       <el-table-column
         prop="trunkNumber"
         header-align="center"
         align="center"
-        label="">
+        label="行李箱数">
       </el-table-column>
       <el-table-column
         prop="customerName"
         header-align="center"
         align="center"
-        label="">
+        label="游客姓名">
       </el-table-column>
       <el-table-column
         prop="customerPhoneNum"
         header-align="center"
         align="center"
-        label="">
+        label="游客手机号">
       </el-table-column>
       <el-table-column
         prop="customerWechat"
         header-align="center"
         align="center"
-        label="">
+        label="游客微信">
       </el-table-column>
       <el-table-column
         prop="customerTrunkNum"
         header-align="center"
         align="center"
-        label="">
+        label="游客行李箱数">
       </el-table-column>
       <el-table-column
         prop="backupName"
         header-align="center"
         align="center"
-        label="">
+        label="紧急联系人">
       </el-table-column>
       <el-table-column
         prop="backupPhoneNum"
         header-align="center"
         align="center"
-        label="">
+        label="紧急联系人手机号">
       </el-table-column>
       <el-table-column
         prop="isAdditionalService"
         header-align="center"
         align="center"
-        label="">
+        label="是否需要额外服务">
       </el-table-column>
       <el-table-column
         prop="orderAmount"
         header-align="center"
         align="center"
-        label="">
+        label="订单金额">
       </el-table-column>
       <el-table-column
         prop="orderStatus"
         header-align="center"
         align="center"
-        label="">
+        label="订单状态">
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="field1"
         header-align="center"
         align="center"
         label="">
-      </el-table-column>
-      <el-table-column
-        prop="field2"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field3"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field4"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field5"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column
         fixed="right"
         header-align="center"

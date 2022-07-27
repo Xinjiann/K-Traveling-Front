@@ -26,68 +26,44 @@
         prop="id"
         header-align="center"
         align="center"
-        label="">
+        label="id">
       </el-table-column>
       <el-table-column
         prop="cityName"
         header-align="center"
         align="center"
-        label="">
+        label="城市名">
       </el-table-column>
       <el-table-column
         prop="cityPostcode"
         header-align="center"
         align="center"
-        label="">
+        label="邮编">
       </el-table-column>
       <el-table-column
         prop="cityAirport"
         header-align="center"
         align="center"
-        label="">
+        label="机场名">
       </el-table-column>
       <el-table-column
         prop="isTerminal"
         header-align="center"
         align="center"
-        label="">
+        label="是否有多个航站楼">
       </el-table-column>
       <el-table-column
         prop="terminalNo"
         header-align="center"
         align="center"
-        label="">
+        label="航站楼名称">
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="field1"
         header-align="center"
         align="center"
         label="">
-      </el-table-column>
-      <el-table-column
-        prop="field2"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field3"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field4"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field5"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column
         fixed="right"
         header-align="center"

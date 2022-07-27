@@ -26,164 +26,140 @@
         prop="id"
         header-align="center"
         align="center"
-        label="">
+        label="id">
       </el-table-column>
       <el-table-column
         prop="userWxOpenid"
         header-align="center"
         align="center"
-        label="">
+        label="用户id">
       </el-table-column>
       <el-table-column
         prop="orderId"
         header-align="center"
         align="center"
-        label="">
+        label="订单id">
       </el-table-column>
       <el-table-column
         prop="orderTime"
         header-align="center"
         align="center"
-        label="">
+        label="下单时间">
       </el-table-column>
       <el-table-column
         prop="orderType"
         header-align="center"
         align="center"
-        label="">
+        label="订单类型">
       </el-table-column>
       <el-table-column
         prop="orderCity"
         header-align="center"
         align="center"
-        label="">
+        label="下单城市">
       </el-table-column>
       <el-table-column
         prop="passedPlace"
         header-align="center"
         align="center"
-        label="">
+        label="途经地">
       </el-table-column>
       <el-table-column
         prop="startTime"
         header-align="center"
         align="center"
-        label="">
+        label="开始时间">
       </el-table-column>
       <el-table-column
         prop="targetPlace"
         header-align="center"
         align="center"
-        label="">
+        label="目的地">
       </el-table-column>
       <el-table-column
         prop="targetPostcode"
         header-align="center"
         align="center"
-        label="">
+        label="目的地邮编">
       </el-table-column>
       <el-table-column
         prop="adultNumber"
         header-align="center"
         align="center"
-        label="">
+        label="成人数量">
       </el-table-column>
       <el-table-column
         prop="childNumber"
         header-align="center"
         align="center"
-        label="">
+        label="儿童数量">
       </el-table-column>
       <el-table-column
         prop="trunkNumber"
         header-align="center"
         align="center"
-        label="">
+        label="行李箱数">
       </el-table-column>
       <el-table-column
         prop="customerName"
         header-align="center"
         align="center"
-        label="">
+        label="乘客姓名">
       </el-table-column>
       <el-table-column
         prop="customerPhoneNum"
         header-align="center"
         align="center"
-        label="">
+        label="乘客手机号">
       </el-table-column>
       <el-table-column
         prop="customerWechat"
         header-align="center"
         align="center"
-        label="">
+        label="乘客微信">
       </el-table-column>
       <el-table-column
         prop="customerTrunkNum"
         header-align="center"
         align="center"
-        label="">
+        label="乘客人行李箱数">
       </el-table-column>
       <el-table-column
         prop="backupName"
         header-align="center"
         align="center"
-        label="">
+        label="紧急联系人">
       </el-table-column>
       <el-table-column
         prop="backupPhoneNum"
         header-align="center"
         align="center"
-        label="">
+        label="紧急联系人手机号">
       </el-table-column>
       <el-table-column
         prop="isAdditionalService"
         header-align="center"
         align="center"
-        label="">
+        label="是否需要额外服务">
       </el-table-column>
       <el-table-column
         prop="orderAmount"
         header-align="center"
         align="center"
-        label="">
+        label="订单金额">
       </el-table-column>
       <el-table-column
         prop="orderStatus"
         header-align="center"
         align="center"
-        label="">
+        label="订单状态">
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="field1"
         header-align="center"
         align="center"
         label="">
-      </el-table-column>
-      <el-table-column
-        prop="field2"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field3"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field4"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field5"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column
         fixed="right"
         header-align="center"

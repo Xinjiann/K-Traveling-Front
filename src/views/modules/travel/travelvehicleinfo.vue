@@ -26,92 +26,68 @@
         prop="id"
         header-align="center"
         align="center"
-        label="">
+        label="id">
       </el-table-column>
       <el-table-column
         prop="carName"
         header-align="center"
         align="center"
-        label="">
+        label="车辆名称">
       </el-table-column>
       <el-table-column
         prop="carMake"
         header-align="center"
         align="center"
-        label="">
+        label="品牌">
       </el-table-column>
       <el-table-column
         prop="carModel"
         header-align="center"
         align="center"
-        label="">
+        label="型号">
       </el-table-column>
       <el-table-column
         prop="carColor"
         header-align="center"
         align="center"
-        label="">
+        label="颜色">
       </el-table-column>
       <el-table-column
         prop="carRegistration"
         header-align="center"
         align="center"
-        label="">
+        label="车牌号">
       </el-table-column>
       <el-table-column
         prop="carPassengers"
         header-align="center"
         align="center"
-        label="">
+        label="载客量">
       </el-table-column>
       <el-table-column
         prop="carType"
         header-align="center"
         align="center"
-        label="">
+        label="车辆类型">
       </el-table-column>
       <el-table-column
         prop="carPhoto"
         header-align="center"
         align="center"
-        label="">
+        label="照片">
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="carVideo"
         header-align="center"
         align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
+        label="视频">
+      </el-table-column> -->
+      <!-- <el-table-column
         prop="field1"
         header-align="center"
         align="center"
         label="">
-      </el-table-column>
-      <el-table-column
-        prop="field2"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field3"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field4"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field5"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column
         fixed="right"
         header-align="center"

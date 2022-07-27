@@ -26,104 +26,74 @@
         prop="userWxOpenid"
         header-align="center"
         align="center"
-        label="">
+        label="id">
       </el-table-column>
       <el-table-column
         prop="userName"
         header-align="center"
         align="center"
-        label="">
+        label="账号">
       </el-table-column>
       <el-table-column
         prop="userFirstName"
         header-align="center"
         align="center"
-        label="">
+        label="姓">
       </el-table-column>
       <el-table-column
         prop="userLastName"
         header-align="center"
         align="center"
-        label="">
+        label="名">
       </el-table-column>
       <el-table-column
         prop="userWxNumber"
         header-align="center"
         align="center"
-        label="">
+        label="微信号">
       </el-table-column>
       <el-table-column
         prop="userStatus"
         header-align="center"
         align="center"
-        label="">
+        label="用户状态">
       </el-table-column>
       <el-table-column
         prop="userPastOrder"
         header-align="center"
         align="center"
-        label="">
+        label="订单记录">
       </el-table-column>
       <el-table-column
         prop="userPhoneNumber"
         header-align="center"
         align="center"
-        label="">
+        label="手机号">
       </el-table-column>
       <el-table-column
         prop="userPhonePrefix"
         header-align="center"
         align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="userPassword"
-        header-align="center"
-        align="center"
-        label="">
+        label="手机号前缀">
       </el-table-column>
       <el-table-column
         prop="userEmail"
         header-align="center"
         align="center"
-        label="">
+        label="邮箱">
       </el-table-column>
       <el-table-column
         prop="registrationDate"
         header-align="center"
         align="center"
-        label="">
+        label="注册日期">
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="field1"
         header-align="center"
         align="center"
         label="">
-      </el-table-column>
-      <el-table-column
-        prop="field2"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field3"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field4"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
-      <el-table-column
-        prop="field5"
-        header-align="center"
-        align="center"
-        label="">
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column
         fixed="right"
         header-align="center"
