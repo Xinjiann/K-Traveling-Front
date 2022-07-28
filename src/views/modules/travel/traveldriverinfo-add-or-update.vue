@@ -4,47 +4,23 @@
     :close-on-click-modal="false"
     :visible.sync="visible">
     <el-form :model="dataForm" :rules="dataRule" ref="dataForm" @keyup.enter.native="dataFormSubmit()" label-width="80px">
-    <el-form-item label="" prop="driverName">
+    <el-form-item label="姓名" prop="driverName">
       <el-input v-model="dataForm.driverName" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="driverLanguage">
+    <el-form-item label="语言" prop="driverLanguage">
       <el-input v-model="dataForm.driverLanguage" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="driverPhone">
+    <el-form-item label="手机号" prop="driverPhone">
       <el-input v-model="dataForm.driverPhone" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="driverEmail">
+    <el-form-item label="邮箱" prop="driverEmail">
       <el-input v-model="dataForm.driverEmail" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="driverType">
-      <el-input v-model="dataForm.driverType" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="driverCountry">
+    <el-form-item label="国籍" prop="driverCountry">
       <el-input v-model="dataForm.driverCountry" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="driverPhoto">
+    <el-form-item label="上传照片" prop="driverPhoto">
       <el-input v-model="dataForm.driverPhoto" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="driverStar">
-      <el-input v-model="dataForm.driverStar" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="driverVideo">
-      <el-input v-model="dataForm.driverVideo" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field1">
-      <el-input v-model="dataForm.field1" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field2">
-      <el-input v-model="dataForm.field2" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field3">
-      <el-input v-model="dataForm.field3" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field4">
-      <el-input v-model="dataForm.field4" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field5">
-      <el-input v-model="dataForm.field5" placeholder=""></el-input>
     </el-form-item>
     </el-form>
     <span slot="footer" class="dialog-footer">

@@ -4,35 +4,20 @@
     :close-on-click-modal="false"
     :visible.sync="visible">
     <el-form :model="dataForm" :rules="dataRule" ref="dataForm" @keyup.enter.native="dataFormSubmit()" label-width="80px">
-    <el-form-item label="" prop="cityName">
+    <el-form-item label="城市名" prop="cityName">
       <el-input v-model="dataForm.cityName" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="cityPostcode">
+    <el-form-item label="邮编" prop="cityPostcode">
       <el-input v-model="dataForm.cityPostcode" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="cityAirport">
+    <el-form-item label="机场" prop="cityAirport">
       <el-input v-model="dataForm.cityAirport" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="isTerminal">
+    <el-form-item label="是否有多个航站楼（1/0）" prop="isTerminal">
       <el-input v-model="dataForm.isTerminal" placeholder=""></el-input>
     </el-form-item>
-    <el-form-item label="" prop="terminalNo">
+    <el-form-item label="航站楼号" prop="terminalNo">
       <el-input v-model="dataForm.terminalNo" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field1">
-      <el-input v-model="dataForm.field1" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field2">
-      <el-input v-model="dataForm.field2" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field3">
-      <el-input v-model="dataForm.field3" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field4">
-      <el-input v-model="dataForm.field4" placeholder=""></el-input>
-    </el-form-item>
-    <el-form-item label="" prop="field5">
-      <el-input v-model="dataForm.field5" placeholder=""></el-input>
     </el-form-item>
     </el-form>
     <span slot="footer" class="dialog-footer">

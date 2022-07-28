@@ -32,13 +32,13 @@
         prop="carName"
         header-align="center"
         align="center"
-        label="车辆名称">
+        label="车辆品牌">
       </el-table-column>
       <el-table-column
         prop="carMake"
         header-align="center"
         align="center"
-        label="品牌">
+        label="描述">
       </el-table-column>
       <el-table-column
         prop="carModel"

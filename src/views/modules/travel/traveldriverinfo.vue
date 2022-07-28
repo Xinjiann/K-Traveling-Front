@@ -53,12 +53,6 @@
         label="邮箱">
       </el-table-column>
       <el-table-column
-        prop="driverType"
-        header-align="center"
-        align="center"
-        label="司机类别">
-      </el-table-column>
-      <el-table-column
         prop="driverCountry"
         header-align="center"
         align="center"
@@ -70,12 +64,12 @@
         align="center"
         label="司机照片">
       </el-table-column>
-      <el-table-column
+      <!-- <el-table-column
         prop="driverStar"
         header-align="center"
         align="center"
         label="司机评分">
-      </el-table-column>
+      </el-table-column> -->
       <!-- <el-table-column
         prop="driverVideo"
         header-align="center"
